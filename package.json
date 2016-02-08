@@ -1,0 +1,17 @@
+{
+  "name": "f-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-example": "watchify example/index.js -o example/index.browser.js -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crel": "^2.2.0",
+    "kgo": "^3.3.2",
+    "tape": "^4.4.0",
+    "tape-run": "^2.1.3"
+  }
+}
