@@ -5,7 +5,7 @@ queue work to happen within frames to allow the UI some time to update.
 ## Install
 
 ```
-npm install j-sync
+npm install f-sync
 ```
 
 ## Usage

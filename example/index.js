@@ -88,6 +88,6 @@ function updateStatus(newStatus){
 kgo
 ('nonFSyncLabel', updateStatus('non f-sync ...'))
 ('nonFSync', ['!nonFSyncLabel'], nonFSynced)
-('fSyncLabel', ['!nonFSync'], updateStatus('f-sync\'d ...'))
+('fSyncLabel', ['!nonFSync'], updateStatus('Done. f-sync\'d ...'))
 ('fSync', ['!fSyncLabel'], fsynced)
 (['!fSync'], updateStatus('Done'));
