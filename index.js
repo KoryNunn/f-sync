@@ -30,7 +30,7 @@ module.exports = function(options){
     }
 
     pushTask.cancel = function(){
-        queue = [];
+        queue.length = 0;
     };
 
     return pushTask;
