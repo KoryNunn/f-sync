@@ -1,6 +1,6 @@
 {
   "name": "f-sync",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "queue work to happen within frames to allow the UI some time to update.",
   "main": "index.js",
   "scripts": {
