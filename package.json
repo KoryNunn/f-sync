@@ -1,7 +1,7 @@
 {
   "name": "f-sync",
   "version": "1.0.1",
-  "description": "",
+  "description": "queue work to happen within frames to allow the UI some time to update.",
   "main": "index.js",
   "scripts": {
     "watch-example": "watchify example/index.js -o example/index.browser.js -d"
@@ -13,5 +13,17 @@
     "kgo": "^3.3.2",
     "tape": "^4.4.0",
     "tape-run": "^2.1.3"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/f-sync.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KoryNunn/f-sync/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/f-sync#readme"
 }
